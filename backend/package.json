@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "build": "npm install --production=false"
-  },
+  "start": "node index.js",
+  "build": "npm install --production=false && npx prisma generate"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
